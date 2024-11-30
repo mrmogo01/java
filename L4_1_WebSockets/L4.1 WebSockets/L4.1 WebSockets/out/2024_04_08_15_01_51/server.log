@@ -1,0 +1,13 @@
+[04-08 15:01:52,171, 1266] main.Main Starting at http://127.0.0.1:8080
+[04-08 15:01:52,172, 1267] main.Main Server started
+[04-08 15:01:52,526, 1621] chat.WebSocketChatServlet WebSocketChatServlet.constructor
+[04-08 15:01:52,531, 1626] chat.ChatService ChatService.constructor
+[04-08 15:01:52,659, 1754] chat.WebSocketChatServlet WebSocketChatServlet.configure(WebSocketServletFactory factory)
+[04-08 15:02:04,043, 13138] chat.ChatWebSocket ChatWebSocket.constructor
+[04-08 15:02:04,093, 13188] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-08 15:02:04,093, 13188] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-08 15:02:09,240, 18335] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-08 15:02:09,240, 18335] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-08 15:02:09,278, 18373] chat.ChatWebSocket ChatWebSocket.constructor
+[04-08 15:02:09,281, 18376] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-08 15:02:09,281, 18376] chat.ChatService ChatService.add(ChatWebSocket webSocket)

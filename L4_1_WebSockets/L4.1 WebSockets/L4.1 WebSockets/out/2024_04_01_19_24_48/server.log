@@ -1,0 +1,64 @@
+[04-01 19:24:49,178, 987] main.Main Starting at http://127.0.0.1:8080
+[04-01 19:24:49,180, 989] main.Main Server started
+[04-01 19:24:49,476, 1285] chat.WebSocketChatServlet WebSocketChatServlet.constructor
+[04-01 19:24:49,476, 1285] chat.ChatService ChatService.constructor
+[04-01 19:24:49,587, 1396] chat.WebSocketChatServlet WebSocketChatServlet.configure(WebSocketServletFactory factory)
+[04-01 19:25:29,542, 41351] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:25:29,585, 41394] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:25:29,585, 41394] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:25:34,978, 46787] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:25:34,978, 46787] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:25:41,327, 53136] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:25:41,330, 53139] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:25:41,330, 53139] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:25:49,867, 61676] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:25:49,867, 61676] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:25:52,770, 64579] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:25:52,772, 64581] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:25:52,772, 64581] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:27:53,626, 185435] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:27:53,626, 185435] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:27:53,695, 185504] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:27:53,697, 185506] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:27:53,697, 185506] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:27:58,513, 190322] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:27:58,513, 190322] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:27:58,568, 190377] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:27:58,570, 190379] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:27:58,570, 190379] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:28:08,306, 200115] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:28:08,306, 200115] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:28:09,955, 201764] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:28:09,957, 201766] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:28:09,957, 201766] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:28:12,496, 204305] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:28:12,496, 204305] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:28:12,559, 204368] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:28:12,559, 204368] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:28:12,559, 204368] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:28:19,357, 211166] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[04-01 19:28:19,357, 211166] chat.ChatService ChatService.sendMessage(String data)
+[04-01 19:28:19,357, 211166] chat.ChatWebSocket ChatWebSocket.sendString(String data)
+[04-01 19:28:22,743, 214552] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[04-01 19:28:22,744, 214553] chat.ChatService ChatService.sendMessage(String data)
+[04-01 19:28:22,744, 214553] chat.ChatWebSocket ChatWebSocket.sendString(String data)
+[04-01 19:28:27,350, 219159] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:28:27,350, 219159] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:28:27,438, 219247] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:28:27,439, 219248] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:28:27,439, 219248] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:28:31,124, 222933] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[04-01 19:28:31,124, 222933] chat.ChatService ChatService.sendMessage(String data)
+[04-01 19:28:31,124, 222933] chat.ChatWebSocket ChatWebSocket.sendString(String data)
+[04-01 19:37:15,283, 747092] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:37:15,283, 747092] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:37:15,333, 747142] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:37:15,333, 747142] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:37:15,333, 747142] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:37:24,691, 756500] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:37:24,691, 756500] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:37:41,078, 772887] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:37:41,079, 772888] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:37:41,079, 772888] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:37:53,969, 785778] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:37:53,969, 785778] chat.ChatService ChatService.remove(ChatWebSocket webSocket)

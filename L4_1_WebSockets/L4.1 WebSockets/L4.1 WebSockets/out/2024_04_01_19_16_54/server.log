@@ -1,0 +1,25 @@
+[04-01 19:16:54,976, 1082] main.Main Starting at http://127.0.0.1:8080
+[04-01 19:16:54,977, 1083] main.Main Server started
+[04-01 19:16:55,312, 1418] chat.WebSocketChatServlet WebSocketChatServlet.constructor
+[04-01 19:16:55,313, 1419] chat.ChatService ChatService.constructor
+[04-01 19:16:55,434, 1540] chat.WebSocketChatServlet WebSocketChatServlet.configure(WebSocketServletFactory factory)
+[04-01 19:17:06,955, 13061] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:17:06,998, 13104] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:17:06,998, 13104] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:17:17,008, 23114] chat.ChatWebSocket ChatWebSocket.onClose(int statusCode, String reason)
+[04-01 19:17:17,008, 23114] chat.ChatService ChatService.remove(ChatWebSocket webSocket)
+[04-01 19:17:19,099, 25205] chat.ChatWebSocket ChatWebSocket.constructor
+[04-01 19:17:19,101, 25207] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[04-01 19:17:19,101, 25207] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[04-01 19:17:25,141, 31247] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[04-01 19:17:25,141, 31247] chat.ChatService ChatService.sendMessage(String data)
+[04-01 19:17:25,141, 31247] chat.ChatWebSocket ChatWebSocket.sendString(String data)
+[04-01 19:17:25,437, 31543] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[04-01 19:17:25,437, 31543] chat.ChatService ChatService.sendMessage(String data)
+[04-01 19:17:25,437, 31543] chat.ChatWebSocket ChatWebSocket.sendString(String data)
+[04-01 19:17:28,485, 34591] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[04-01 19:17:28,485, 34591] chat.ChatService ChatService.sendMessage(String data)
+[04-01 19:17:28,485, 34591] chat.ChatWebSocket ChatWebSocket.sendString(String data)
+[04-01 19:17:29,092, 35198] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[04-01 19:17:29,094, 35200] chat.ChatService ChatService.sendMessage(String data)
+[04-01 19:17:29,094, 35200] chat.ChatWebSocket ChatWebSocket.sendString(String data)
