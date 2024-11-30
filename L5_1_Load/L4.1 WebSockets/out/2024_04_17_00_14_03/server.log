@@ -1,0 +1,6 @@
+[04-17 00:14:03,497, 646] main.Main Starting at http://127.0.0.1:8080
+[04-17 00:14:03,498, 647] main.Main Server started
+[04-17 00:14:03,683, 832] chat.WebSocketChatServlet WebSocketChatServlet.constructor
+[04-17 00:14:03,683, 832] chat.ChatService ChatService.constructor
+[04-17 00:14:03,738, 887] chat.WebSocketChatServlet WebSocketChatServlet.configure(WebSocketServletFactory factory)
+[04-17 00:14:03,799, 948] main.Main Server started
